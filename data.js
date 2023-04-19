@@ -4,7 +4,7 @@ export const tweetsData = [
         profilePic: `images/troll.jpg`,
         likes: 27,
         retweets: 10,
-        tweetText: `Buy Bitcoin, ETH Make 💰💰💰 low low prices. 
+        tweetText: `Buy Bitcoin, ETH Make 💰💰💰 low low low prices. 
             Guaranteed return on investment. HMU DMs open!!`,
         replies: [],
         isLiked: false,
