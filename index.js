@@ -104,7 +104,13 @@ function addReplyBtnClick(tweetId){
 
 
 function delTweetBtn(tweetId){
-   document.getElementById(`tweet-${tweetId}`).classList.add("del-tweet")
+    const targetTweetObj = tweetsData.filter(function(tweet){
+        return tweet.uuid === tweetId
+     })[0] 
+     
+   let indexOfTweet = tweetsData.indexOf(targetTweetObj)
+   tweetsData.splice(indexOfTweet, 1)
+   render()
 }
 
 function getFeedHtml(){
