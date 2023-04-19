@@ -71,6 +71,12 @@ button{
     font-weight: 600;
 }
 
+button:hover,
+button:active{
+    color: #098de0;
+    transform: scale(1.1);
+}
+
 .send-reply-btn{
     width: 70px;
     font-size: 10px;
