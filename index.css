@@ -73,8 +73,7 @@ button{
 
 button:hover,
 button:active{
-    background-color: #098de0;
-    transform: scale(1.1);
+    background-color: #63aedd;
 }
 
 .send-reply-btn{
