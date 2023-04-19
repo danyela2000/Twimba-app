@@ -93,7 +93,7 @@ function addReplyBtnClick(tweetId){
     if(replyInput.value){
         targetTweetObj.replies.unshift(
             {
-            handle: `@GabbyScrimba`,
+            handle: `@Gabby_Scrimba`,
             profilePic: `images/scrimbalogo.png`,
             tweetText: replyInput.value,
         },)
